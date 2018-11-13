@@ -67,7 +67,7 @@ extension MovieAPIHandler {
         }
     }
     
-    /// Get NowPlayingMovies: [TESTED]
+    /// Get TopRatedMovies: [TESTED]
     func getTopRatedMovies(page: Int = 1, callback: @escaping (Bool, AnyObject) -> ()) {
         Alamofire.request(self.baseURL + "/movie/top_rated?api_key=" + apiKey + "&page=\(page)",
             method: .get,
@@ -91,7 +91,7 @@ extension MovieAPIHandler {
         }
     }
     
-    /// Get NowPlayingMovies: [TESTED]
+    /// Get UpcomingMovies: [TESTED]
     func getUpcomingMovies(page: Int = 1, callback: @escaping (Bool, AnyObject) -> ()) {
         Alamofire.request(self.baseURL + "/movie/upcoming?api_key=" + apiKey + "&page=\(page)",
             method: .get,
