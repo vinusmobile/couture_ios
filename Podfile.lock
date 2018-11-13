@@ -1,0 +1,24 @@
+PODS:
+  - AFImageHelper (3.2.1)
+  - Alamofire (4.7.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFImageHelper
+  - Alamofire
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFImageHelper
+    - Alamofire
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFImageHelper: 9142599fb4f826b480d177902ab7f0c961bc966c
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 6220425738f169e262ded692b906664f222e115c
+
+COCOAPODS: 1.5.3

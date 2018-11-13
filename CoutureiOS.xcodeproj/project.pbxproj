@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A4A601219AB16A00288FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A4A600219AB16A00288FF9 /* AppDelegate.swift */; };
+		00A4A608219AB16A00288FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A4A606219AB16A00288FF9 /* Main.storyboard */; };
+		00A4A60A219AB16C00288FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A4A609219AB16C00288FF9 /* Assets.xcassets */; };
+		00A4A60D219AB16C00288FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A4A60B219AB16C00288FF9 /* LaunchScreen.storyboard */; };
+		00A4A618219AB16C00288FF9 /* CoutureiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A4A617219AB16C00288FF9 /* CoutureiOSTests.swift */; };
+		00A4A623219AB16C00288FF9 /* CoutureiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A4A622219AB16C00288FF9 /* CoutureiOSUITests.swift */; };
+		0540FA72D0551124F2C146E7 /* Pods_CoutureiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C07F8CFF5F3A7F1BD065E7 /* Pods_CoutureiOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A4A614219AB16C00288FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A4A5F5219AB16900288FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A4A5FC219AB16A00288FF9;
+			remoteInfo = CoutureiOS;
+		};
+		00A4A61F219AB16C00288FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A4A5F5219AB16900288FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A4A5FC219AB16A00288FF9;
+			remoteInfo = CoutureiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A4A5FD219AB16A00288FF9 /* CoutureiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoutureiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A4A600219AB16A00288FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A4A607219AB16A00288FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A4A609219AB16C00288FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A4A60C219AB16C00288FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A4A60E219AB16C00288FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A4A613219AB16C00288FF9 /* CoutureiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoutureiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A4A617219AB16C00288FF9 /* CoutureiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoutureiOSTests.swift; sourceTree = "<group>"; };
+		00A4A619219AB16C00288FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A4A61E219AB16C00288FF9 /* CoutureiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoutureiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A4A622219AB16C00288FF9 /* CoutureiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoutureiOSUITests.swift; sourceTree = "<group>"; };
+		00A4A624219AB16C00288FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C07F8CFF5F3A7F1BD065E7 /* Pods_CoutureiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoutureiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A465C986695F21836CCBC1 /* Pods-CoutureiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoutureiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoutureiOS/Pods-CoutureiOS.release.xcconfig"; sourceTree = "<group>"; };
+		E8B030524B35E67CD29C9B4E /* Pods-CoutureiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoutureiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoutureiOS/Pods-CoutureiOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A4A5FA219AB16A00288FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0540FA72D0551124F2C146E7 /* Pods_CoutureiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A4A610219AB16C00288FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A4A61B219AB16C00288FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A4A5F4219AB16900288FF9 = {
+			isa = PBXGroup;
+			children = (
+				00A4A5FF219AB16A00288FF9 /* CoutureiOS */,
+				00A4A616219AB16C00288FF9 /* CoutureiOSTests */,
+				00A4A621219AB16C00288FF9 /* CoutureiOSUITests */,
+				00A4A5FE219AB16A00288FF9 /* Products */,
+				26211AFB338975285F14DE2D /* Pods */,
+				77493E01D909C30E00581C75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00A4A5FE219AB16A00288FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A4A5FD219AB16A00288FF9 /* CoutureiOS.app */,
+				00A4A613219AB16C00288FF9 /* CoutureiOSTests.xctest */,
+				00A4A61E219AB16C00288FF9 /* CoutureiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A4A5FF219AB16A00288FF9 /* CoutureiOS */ = {
+			isa = PBXGroup;
+			children = (
+				00A4A600219AB16A00288FF9 /* AppDelegate.swift */,
+				00A4A606219AB16A00288FF9 /* Main.storyboard */,
+				00A4A609219AB16C00288FF9 /* Assets.xcassets */,
+				00A4A60B219AB16C00288FF9 /* LaunchScreen.storyboard */,
+				00A4A60E219AB16C00288FF9 /* Info.plist */,
+			);
+			path = CoutureiOS;
+			sourceTree = "<group>";
+		};
+		00A4A616219AB16C00288FF9 /* CoutureiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A4A617219AB16C00288FF9 /* CoutureiOSTests.swift */,
+				00A4A619219AB16C00288FF9 /* Info.plist */,
+			);
+			path = CoutureiOSTests;
+			sourceTree = "<group>";
+		};
+		00A4A621219AB16C00288FF9 /* CoutureiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00A4A622219AB16C00288FF9 /* CoutureiOSUITests.swift */,
+				00A4A624219AB16C00288FF9 /* Info.plist */,
+			);
+			path = CoutureiOSUITests;
+			sourceTree = "<group>";
+		};
+		26211AFB338975285F14DE2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8B030524B35E67CD29C9B4E /* Pods-CoutureiOS.debug.xcconfig */,
+				73A465C986695F21836CCBC1 /* Pods-CoutureiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77493E01D909C30E00581C75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47C07F8CFF5F3A7F1BD065E7 /* Pods_CoutureiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A4A5FC219AB16A00288FF9 /* CoutureiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A4A627219AB16C00288FF9 /* Build configuration list for PBXNativeTarget "CoutureiOS" */;
+			buildPhases = (
+				017498F3538229EA06A02402 /* [CP] Check Pods Manifest.lock */,
+				00A4A5F9219AB16A00288FF9 /* Sources */,
+				00A4A5FA219AB16A00288FF9 /* Frameworks */,
+				00A4A5FB219AB16A00288FF9 /* Resources */,
+				18DF345FF4B95926C9430980 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoutureiOS;
+			productName = CoutureiOS;
+			productReference = 00A4A5FD219AB16A00288FF9 /* CoutureiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A4A612219AB16C00288FF9 /* CoutureiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A4A62A219AB16C00288FF9 /* Build configuration list for PBXNativeTarget "CoutureiOSTests" */;
+			buildPhases = (
+				00A4A60F219AB16C00288FF9 /* Sources */,
+				00A4A610219AB16C00288FF9 /* Frameworks */,
+				00A4A611219AB16C00288FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A4A615219AB16C00288FF9 /* PBXTargetDependency */,
+			);
+			name = CoutureiOSTests;
+			productName = CoutureiOSTests;
+			productReference = 00A4A613219AB16C00288FF9 /* CoutureiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00A4A61D219AB16C00288FF9 /* CoutureiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A4A62D219AB16C00288FF9 /* Build configuration list for PBXNativeTarget "CoutureiOSUITests" */;
+			buildPhases = (
+				00A4A61A219AB16C00288FF9 /* Sources */,
+				00A4A61B219AB16C00288FF9 /* Frameworks */,
+				00A4A61C219AB16C00288FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A4A620219AB16C00288FF9 /* PBXTargetDependency */,
+			);
+			name = CoutureiOSUITests;
+			productName = CoutureiOSUITests;
+			productReference = 00A4A61E219AB16C00288FF9 /* CoutureiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A4A5F5219AB16900288FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = a;
+				TargetAttributes = {
+					00A4A5FC219AB16A00288FF9 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					00A4A612219AB16C00288FF9 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 00A4A5FC219AB16A00288FF9;
+					};
+					00A4A61D219AB16C00288FF9 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 00A4A5FC219AB16A00288FF9;
+					};
+				};
+			};
+			buildConfigurationList = 00A4A5F8219AB16900288FF9 /* Build configuration list for PBXProject "CoutureiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A4A5F4219AB16900288FF9;
+			productRefGroup = 00A4A5FE219AB16A00288FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A4A5FC219AB16A00288FF9 /* CoutureiOS */,
+				00A4A612219AB16C00288FF9 /* CoutureiOSTests */,
+				00A4A61D219AB16C00288FF9 /* CoutureiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A4A5FB219AB16A00288FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A4A60D219AB16C00288FF9 /* LaunchScreen.storyboard in Resources */,
+				00A4A60A219AB16C00288FF9 /* Assets.xcassets in Resources */,
+				00A4A608219AB16A00288FF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A4A611219AB16C00288FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A4A61C219AB16C00288FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		017498F3538229EA06A02402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoutureiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18DF345FF4B95926C9430980 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoutureiOS/Pods-CoutureiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFImageHelper/AFImageHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFImageHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoutureiOS/Pods-CoutureiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A4A5F9219AB16A00288FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A4A601219AB16A00288FF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A4A60F219AB16C00288FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A4A618219AB16C00288FF9 /* CoutureiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A4A61A219AB16C00288FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A4A623219AB16C00288FF9 /* CoutureiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A4A615219AB16C00288FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A4A5FC219AB16A00288FF9 /* CoutureiOS */;
+			targetProxy = 00A4A614219AB16C00288FF9 /* PBXContainerItemProxy */;
+		};
+		00A4A620219AB16C00288FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A4A5FC219AB16A00288FF9 /* CoutureiOS */;
+			targetProxy = 00A4A61F219AB16C00288FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A4A606219AB16A00288FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A4A607219AB16A00288FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A4A60B219AB16C00288FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A4A60C219AB16C00288FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A4A625219AB16C00288FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A4A626219AB16C00288FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A4A628219AB16C00288FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B030524B35E67CD29C9B4E /* Pods-CoutureiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 42BUJ7W943;
+				INFOPLIST_FILE = CoutureiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0d46c58-7d66-409c-b307-0b7eb65f0121";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard_provision;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A4A629219AB16C00288FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A465C986695F21836CCBC1 /* Pods-CoutureiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 42BUJ7W943;
+				INFOPLIST_FILE = CoutureiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0d46c58-7d66-409c-b307-0b7eb65f0121";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard_provision;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00A4A62B219AB16C00288FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoutureiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoutureiOS.app/CoutureiOS";
+			};
+			name = Debug;
+		};
+		00A4A62C219AB16C00288FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoutureiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoutureiOS.app/CoutureiOS";
+			};
+			name = Release;
+		};
+		00A4A62E219AB16C00288FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoutureiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoutureiOS;
+			};
+			name = Debug;
+		};
+		00A4A62F219AB16C00288FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoutureiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoutureiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A4A5F8219AB16900288FF9 /* Build configuration list for PBXProject "CoutureiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A4A625219AB16C00288FF9 /* Debug */,
+				00A4A626219AB16C00288FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A4A627219AB16C00288FF9 /* Build configuration list for PBXNativeTarget "CoutureiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A4A628219AB16C00288FF9 /* Debug */,
+				00A4A629219AB16C00288FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A4A62A219AB16C00288FF9 /* Build configuration list for PBXNativeTarget "CoutureiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A4A62B219AB16C00288FF9 /* Debug */,
+				00A4A62C219AB16C00288FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A4A62D219AB16C00288FF9 /* Build configuration list for PBXNativeTarget "CoutureiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A4A62E219AB16C00288FF9 /* Debug */,
+				00A4A62F219AB16C00288FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A4A5F5219AB16900288FF9 /* Project object */;
+}
