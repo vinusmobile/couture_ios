@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0053B231219ABF7D006DBDA1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B230219ABF7D006DBDA1 /* BaseViewController.swift */; };
+		0053B236219ABFA2006DBDA1 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B232219ABFA2006DBDA1 /* UpcomingViewController.swift */; };
+		0053B237219ABFA2006DBDA1 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B233219ABFA2006DBDA1 /* NowPlayingViewController.swift */; };
+		0053B238219ABFA2006DBDA1 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B234219ABFA2006DBDA1 /* PopularViewController.swift */; };
+		0053B239219ABFA2006DBDA1 /* TopRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B235219ABFA2006DBDA1 /* TopRatedViewController.swift */; };
+		0053B23D219AC31B006DBDA1 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B23C219AC31B006DBDA1 /* APIHandler.swift */; };
 		00A4A601219AB16A00288FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A4A600219AB16A00288FF9 /* AppDelegate.swift */; };
 		00A4A608219AB16A00288FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A4A606219AB16A00288FF9 /* Main.storyboard */; };
 		00A4A60A219AB16C00288FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A4A609219AB16C00288FF9 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0053B230219ABF7D006DBDA1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0053B232219ABFA2006DBDA1 /* UpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		0053B233219ABFA2006DBDA1 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		0053B234219ABFA2006DBDA1 /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		0053B235219ABFA2006DBDA1 /* TopRatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRatedViewController.swift; sourceTree = "<group>"; };
+		0053B23C219AC31B006DBDA1 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		00A4A5FD219AB16A00288FF9 /* CoutureiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoutureiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A4A600219AB16A00288FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00A4A607219AB16A00288FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +89,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0053B22D219ABF32006DBDA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0053B22E219ABF32006DBDA1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0053B233219ABFA2006DBDA1 /* NowPlayingViewController.swift */,
+				0053B234219ABFA2006DBDA1 /* PopularViewController.swift */,
+				0053B235219ABFA2006DBDA1 /* TopRatedViewController.swift */,
+				0053B232219ABFA2006DBDA1 /* UpcomingViewController.swift */,
+				0053B230219ABF7D006DBDA1 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0053B22F219ABF32006DBDA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0053B23A219AC305006DBDA1 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				0053B23B219AC305006DBDA1 /* APIHandlers */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		0053B23B219AC305006DBDA1 /* APIHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				0053B23C219AC31B006DBDA1 /* APIHandler.swift */,
+			);
+			path = APIHandlers;
+			sourceTree = "<group>";
+		};
 		00A4A5F4219AB16900288FF9 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +156,10 @@
 		00A4A5FF219AB16A00288FF9 /* CoutureiOS */ = {
 			isa = PBXGroup;
 			children = (
+				0053B23A219AC305006DBDA1 /* Handlers */,
+				0053B22D219ABF32006DBDA1 /* Models */,
+				0053B22E219ABF32006DBDA1 /* ViewControllers */,
+				0053B22F219ABF32006DBDA1 /* Views */,
 				00A4A600219AB16A00288FF9 /* AppDelegate.swift */,
 				00A4A606219AB16A00288FF9 /* Main.storyboard */,
 				00A4A609219AB16C00288FF9 /* Assets.xcassets */,
@@ -322,7 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0053B23D219AC31B006DBDA1 /* APIHandler.swift in Sources */,
+				0053B238219ABFA2006DBDA1 /* PopularViewController.swift in Sources */,
 				00A4A601219AB16A00288FF9 /* AppDelegate.swift in Sources */,
+				0053B237219ABFA2006DBDA1 /* NowPlayingViewController.swift in Sources */,
+				0053B231219ABF7D006DBDA1 /* BaseViewController.swift in Sources */,
+				0053B236219ABFA2006DBDA1 /* UpcomingViewController.swift in Sources */,
+				0053B239219ABFA2006DBDA1 /* TopRatedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +563,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 42BUJ7W943;
 				INFOPLIST_FILE = CoutureiOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b0d46c58-7d66-409c-b307-0b7eb65f0121";
@@ -517,7 +584,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 42BUJ7W943;
 				INFOPLIST_FILE = CoutureiOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b0d46c58-7d66-409c-b307-0b7eb65f0121";
@@ -534,7 +604,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoutureiOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -550,7 +624,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoutureiOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -565,7 +643,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoutureiOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -580,7 +662,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoutureiOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoutureiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
