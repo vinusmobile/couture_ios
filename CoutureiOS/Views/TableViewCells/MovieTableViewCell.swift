@@ -28,7 +28,9 @@ class MovieTableViewCell: UITableViewCell {
     func setup(movie: CLMovie) {
         titleLabel.text = movie.title
         overviewLabel.text = movie.overview
-        moviePosterImageView.imageFromURL(movie.poster_path?.path ?? "", placeholder: UIImage.init(color: UIColor.gray)!)
+        
+        let path = movie.poster_path?.path
+        moviePosterImageView.imageFromURL((path != nil ? ImageBucketBaseUrl + path! : ""), placeholder: UIImage.init(color: UIColor.gray)!)
     }
     
 }
